@@ -2,13 +2,14 @@
 
 
 var arav, gun, theif, diamond, ground, bullet;
-var ai, gi, ti, di, bgi;
+var agd,ai, gi, ti, di, bgi;
 
 
 function preload()
 {
 	bgi = loadImage("purple background.jpeg");
-	ai = loadImage("ag-removebg-preview.png");
+	ai = loadImage("agd-removebg-preview.png");
+	agd = loadImage("agd-left-removebg-preview.png");
 	di = loadImage("diamond-removebg-preview.png");
 	ti = loadImage("theif_test-removebg-preview.png");
 }
